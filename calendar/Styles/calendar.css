@@ -5,13 +5,12 @@ ul {
 body {
   background-color: #202124;
 
-  background-image: url(../Images/dock.jpg);
+  background-image: url(../Images/dock.webp);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* width: 100%; */
-  /* height: 100%; */
+
   font-family: Arial, Helvetica;
   letter-spacing: 0.02em;
   font-weight: 400;
@@ -107,10 +106,10 @@ body {
   background: #eee;
   border-radius: 3px;
   background: rgba(255, 255, 255, 0.75);
-  height: 150px;
+  height: 175px;
   /* can change later */
   /* z-index: -1; */
-  /* box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05); */
+  /* box-shadow: inset 0 0 0 20px rgba(255, 255, 255, 0.05); */
   /* filter: blur(10px); */
   margin: 0;
   transition: 1s;

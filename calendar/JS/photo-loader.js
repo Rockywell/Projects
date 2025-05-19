@@ -1,12 +1,14 @@
+/// Images provided by https://images.hdqwalls.com ///
+
 var localImages = [
-    'Images/blue-lake-star-trails.jpg',
-    'Images/dock.jpg',
-    'Images/fantasy-sky.jpg',
-    'Images/marin-county-mist.jpg',
-    'Images/mountain-river.jpg',
-    'Images/ripple.jpg',
-    'Images/sunrise.jpg',
-    'Images/winter-mountains.jpg',
+    'Images/blue-lake-star-trails.webp',
+    'Images/dock.webp',
+    'Images/fantasy-sky.webp',
+    'Images/marin-county-mist.webp',
+    'Images/mountain-river.webp',
+    'Images/ripple.webp',
+    'Images/sunrise.webp',
+    'Images/winter-mountains.webp',
 
 
 ];
