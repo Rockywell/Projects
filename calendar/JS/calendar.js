@@ -21,7 +21,6 @@ var childElements;
 isThisLeapYear = (Year) => {
         if (((Year % 4) == 0) && ((Year % 100) != 0) || ((Year % 400) == 0)) {
                 monthsOfTheYear[1].February = 29;
-                // var activate = { ...monthsOfTheYear[1], February: 29}
         }
 }
 isThisLeapYear(year);
@@ -36,9 +35,6 @@ for (dayTick = 0; dayTick < numberOfDaysInTheWeek; dayTick++) {
         childElements[dayTick].innerHTML = String(weekdays[dayTick]);
 }
 
-
-//var errorCounter;
-//transformCalendar()
 
 update = () => {
 
@@ -67,21 +63,11 @@ update = () => {
                 createdElement = "span";
                 var day = now.getDate();
                 childElements[(day + spacing) - 1].innerHTML = `<span class="active glow ${Object.keys(monthsOfTheYear[monthNumber])}">${day}</span>`; //new
-                // var currentDayStyle = childElements[(day+spacing)-1].firstChild.style;//background: rgba(205,205,205,0.5);
-                // currentDayStyle.background = eval(`monthsOfTheYear[monthNumber].${Object.keys(monthsOfTheYear[monthNumber])}`);
-
-                // currentDayStyle.border = 
-                //currentDayStyle.transition = "1s;"
         }
 
         var currentMonthStyle = document.getElementById("month&Year");
         currentMonthStyle.className = "";
         currentMonthStyle.classList.add("month", Object.keys(monthsOfTheYear[monthNumber]));
-
-        // currentMonthStyle.background = eval( `monthsOfTheYear[monthNumber].${Object.keys(monthsOfTheYear[monthNumber])}`); //Default
-        // currentMonthStyle.background = 'rgba(0, 135, 227, var(--background-opacity,1))'; //Error or Testing.
-        //currentMonthStyle.transition ="1s;"
-
 }
 
 
