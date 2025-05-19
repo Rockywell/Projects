@@ -52,7 +52,7 @@ update = () => {
 
 
 
-        document.getElementById("month&Year").innerHTML = `<ul><li class="prev" onclick="previousCalendar()">&#10094;</li><li class="next" onclick="nextCalendar()">&#10095;</li><li><h1>${month}</h1><span style="font-size:20px"><strong>${year}</strong></span></li><li class="glow"><span style="font-size:8px;"><br>By Porter Frazier</span></li>`;
+        document.getElementById("month&Year").innerHTML = `<ul><li class="prev" onclick="previousCalendar()">&#10094;</li><li class="next" onclick="nextCalendar()">&#10095;</li><li><h1>${month}</h1><span style="font-size:20px"><strong>${year}</strong></span></li><li class="glow"><span style="font-size:8px;">By Porter Frazier</span></li>`;
 
 
         transformCalendar();
