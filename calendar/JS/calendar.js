@@ -1,5 +1,3 @@
-// console.time('calendar-file');
-
 var now = new Date();
 
 var day = now.getDate();
@@ -201,4 +199,3 @@ function nextCalendar() {
 
         finalizeCalendar();
 }
-// console.timeEnd('calendar-file');
